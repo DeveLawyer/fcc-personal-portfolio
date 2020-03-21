@@ -1,0 +1,66 @@
+/*** Color themes ***
+Dark Purple: #721b65
+Jazzberry Jam: #b80d57
+Bittersweet: #f8615a
+Dandelion: #ffd868
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+/*** Navbar ***/
+#navbar {
+  background: #721b65;
+  position: fixed;
+  height: 100px;
+  width: 100vw;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/*** Welcome section ***/
+#welcome-section {
+  background-color: #ffd868;
+  height: 100vh;
+  padding-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#welcome-section h1 {
+  color: #b80d57;
+  font-family: "Lora", serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#welcome-section p {
+  font-size: 20px;
+}
+
+/*** Projects section ***/
+#projects {
+  background: #b80d57;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.end-wrapper {
+  background: #f8615a;
+  height: 100vh;
+  padding-top: 100px;
+}
