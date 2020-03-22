@@ -101,7 +101,7 @@ body {
 }
 
 .project-tile {
-  background: #ffd868;
+  background: #721b65;
   text-align: center;
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 .project-tile p {
-  color: #721b65;
+  color: #fff;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -126,8 +126,8 @@ body {
 }
 
 .btn {
-  color: #fff;
-  background-color: #721b65;
+  color: #721b65;
+  background-color: #ffd868;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -147,4 +147,52 @@ body {
   background: #f8615a;
   height: 100vh;
   padding-top: 100px;
+}
+
+#contact {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+}
+
+#contact h2 {
+  color: #fff;
+  font-family: "Lora", serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 0;
+  text-shadow: 2px 2px #000;
+}
+
+#contact p {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px #000;
+}
+
+.social-links {
+  display: flex;
+  font-size: 40px;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.social-links a {
+  color: #721b65;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: white;
+}
+
+footer {
+  border-top: 5px solid #fff;
+  height: 20%;
+  padding: 50px;
+  text-align: center;
 }
