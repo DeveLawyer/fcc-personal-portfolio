@@ -26,6 +26,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  z-index: 1;
 }
 
 #navbar ul {
@@ -75,11 +76,73 @@ body {
 
 /*** Projects section ***/
 #projects {
+  display: flex;
   background: #b80d57;
-  height: 100vh;
-  padding-top: 100px;
+  padding: 150px 0 100px;
+  flex-direction: column;
+  align-items: center;
 }
 
+#projects h2 {
+  color: #ffd868;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  margin: 50px auto;
+  width: 90%;
+}
+
+.project-tile {
+  background: #ffd868;
+  text-align: center;
+}
+
+.project-tile img {
+  width: 100%;
+}
+
+.project-tile a {
+  text-decoration: none;
+}
+
+.project-tile:hover {
+  opacity: 0.9;
+}
+
+.project-tile p {
+  color: #721b65;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 5px 0;
+}
+
+.btn {
+  color: #fff;
+  background-color: #721b65;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #721b65;
+  background-color: #fff;
+}
+
+/*** Ending section ***/
 .end-wrapper {
   background: #f8615a;
   height: 100vh;
